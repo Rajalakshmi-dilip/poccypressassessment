@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="7.601" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-04-16T13:16:09" tests="0" file="cypress\e2e\radioButton.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Radiobutton handling" timestamp="2025-04-16T13:16:09" tests="1" time="7.598" failures="0">
+    <testcase name="Radiobutton handling should handle the radio button" time="4.797" classname="should handle the radio button">
+    </testcase>
+  </testsuite>
+</testsuites>

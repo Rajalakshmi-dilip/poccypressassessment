@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="64.667" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2025-04-16T13:16:48" tests="0" file="cypress\e2e\retry.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Retry mechanism" timestamp="2025-04-16T13:16:48" tests="1" time="64.660" failures="1">
+    <testcase name="Retry mechanism should retry the test if it fails upto 3 attempts" time="8.339" classname="should retry the test if it fails upto 3 attempts">
+      <failure message="Timed out retrying after 4000ms: expected &apos;https://ecommerce-admin.azureedge.net/login&apos; to include &apos;/dashboard&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected 'https://ecommerce-admin.azureedge.net/login' to include '/dashboard'
+    at LoginPage.verifyDashboardUrl (webpack://poccypressassessment/./cypress/support/login.po.js:20:17)
+    at Context.eval (webpack://poccypressassessment/./cypress/e2e/retry.cy.js:21:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

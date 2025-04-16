@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-04-16T05:58:29.816Z",
+    "end": "2025-04-16T05:58:35.261Z",
+    "duration": 5445,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "76721211-fb8d-4974-8146-e0c2dd1aafb5",
+      "title": "",
+      "fullFile": "cypress\\e2e\\frame.cy.js",
+      "file": "cypress\\e2e\\frame.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "66d976fa-7d35-4713-8940-a477eac725fe",
+          "title": "Handle iframe and type in TinyMCE",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should type \"Hello world\" in the TinyMCE text area",
+              "fullTitle": "Handle iframe and type in TinyMCE should type \"Hello world\" in the TinyMCE text area",
+              "timedOut": null,
+              "duration": 3399,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://the-internet.herokuapp.com/iframe');\n// Handling the iframe\ncy.get('iframe#mce_0_ifr').then($iframe => {\n  const iframeBody = $iframe.contents().find('body#tinymce');\n  cy.wrap(iframeBody).type('Hello world');\n});",
+              "err": {},
+              "uuid": "6d0832a6-0079-4f8c-8bc2-fe828694a966",
+              "parentUUID": "66d976fa-7d35-4713-8940-a477eac725fe",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6d0832a6-0079-4f8c-8bc2-fe828694a966"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3399,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

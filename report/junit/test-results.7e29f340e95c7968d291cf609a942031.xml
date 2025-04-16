@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.788" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-04-16T13:16:06" tests="0" file="cypress\e2e\loginApi.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="API Authentication Test" timestamp="2025-04-16T13:16:06" tests="1" time="0.784" failures="0">
+    <testcase name="API Authentication Test should authenticate successfully" time="0.748" classname="should authenticate successfully">
+    </testcase>
+  </testsuite>
+</testsuites>

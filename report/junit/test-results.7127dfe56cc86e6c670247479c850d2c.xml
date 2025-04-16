@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="27.166" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-04-16T13:16:18" tests="0" file="cypress\e2e\recordingScript.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Recording script and Drodown handling" timestamp="2025-04-16T13:16:18" tests="1" time="27.163" failures="0">
+    <testcase name="Recording script and Drodown handling should handle the dropdown" time="24.469" classname="should handle the dropdown">
+    </testcase>
+  </testsuite>
+</testsuites>

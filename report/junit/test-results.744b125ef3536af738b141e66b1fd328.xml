@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="6.885" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-04-16T13:15:04" tests="0" file="cypress\e2e\frame.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Handle iframe and type in TinyMCE" timestamp="2025-04-16T13:15:04" tests="1" time="6.880" failures="0">
+    <testcase name="Handle iframe and type in TinyMCE should type &quot;Hello world&quot; in the TinyMCE text area" time="4.189" classname="should type &quot;Hello world&quot; in the TinyMCE text area">
+    </testcase>
+  </testsuite>
+</testsuites>

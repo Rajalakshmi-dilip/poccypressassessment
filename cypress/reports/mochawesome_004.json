@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-04-16T05:58:37.713Z",
+    "end": "2025-04-16T05:58:42.622Z",
+    "duration": 4909,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "1c555dcd-ad17-4457-90cf-60edf8205f1f",
+      "title": "",
+      "fullFile": "cypress\\e2e\\login.cy.js",
+      "file": "cypress\\e2e\\login.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5af77b20-1ba1-49f6-9757-87b1cd7d340d",
+          "title": "Login Page Tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should login into the application",
+              "fullTitle": "Login Page Tests should login into the application",
+              "timedOut": null,
+              "duration": 2976,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://ecommerce-admin.azureedge.net/');\nloginPage.getEmailInput().type('ecommerceadmin@yopmail.com');\nloginPage.getPasswordInput().type('Test@123');\n// Verify the login button is visible\n//Handling Assertion\nloginPage.verifySubmitButtonIsVisible();\nloginPage.getSubmitButton().click();",
+              "err": {},
+              "uuid": "573f30bc-5fa0-4ed4-854f-d2fa60256310",
+              "parentUUID": "5af77b20-1ba1-49f6-9757-87b1cd7d340d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "573f30bc-5fa0-4ed4-854f-d2fa60256310"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2976,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

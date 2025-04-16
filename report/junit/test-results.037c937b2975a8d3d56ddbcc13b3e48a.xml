@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="6.921" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-04-16T13:13:45" tests="0" file="cypress\e2e\checkbox.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="checkbox handling" timestamp="2025-04-16T13:13:45" tests="1" time="6.914" failures="0">
+    <testcase name="checkbox handling should handle the checkbox" time="3.354" classname="should handle the checkbox">
+    </testcase>
+  </testsuite>
+</testsuites>

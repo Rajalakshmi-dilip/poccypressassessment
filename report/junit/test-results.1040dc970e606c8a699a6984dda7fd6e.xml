@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="57.560" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-04-16T13:14:04" tests="0" file="cypress\e2e\fixture.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="import fixtures data" timestamp="2025-04-16T13:14:04" tests="1" time="57.550" failures="0">
+    <testcase name="import fixtures data should login into the application" time="54.850" classname="should login into the application">
+    </testcase>
+  </testsuite>
+</testsuites>
